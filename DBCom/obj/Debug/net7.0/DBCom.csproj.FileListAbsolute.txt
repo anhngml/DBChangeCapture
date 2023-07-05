@@ -1,0 +1,12 @@
+E:\Sources\DBService\DBCom\bin\Debug\net7.0\DBCom.deps.json
+E:\Sources\DBService\DBCom\bin\Debug\net7.0\DBCom.dll
+E:\Sources\DBService\DBCom\bin\Debug\net7.0\DBCom.pdb
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.csproj.AssemblyReference.cache
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.GeneratedMSBuildEditorConfig.editorconfig
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.AssemblyInfoInputs.cache
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.AssemblyInfo.cs
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.csproj.CoreCompileInputs.cache
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.dll
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\refint\DBCom.dll
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\DBCom.pdb
+E:\Sources\DBService\DBCom\obj\Debug\net7.0\ref\DBCom.dll

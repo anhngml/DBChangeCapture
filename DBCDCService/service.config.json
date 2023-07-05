@@ -1,0 +1,17 @@
+{
+  "server": "localhost",
+  "username": "sa",
+  "password": "vJetanh8h",
+  "initCatalog": "ecus",
+  "capTables": [
+    "ecus.dbo.DTOKHAIMD",
+    "ecus.dbo.DHANGMDDK"
+  ],
+  "keyFields": [
+    "_DToKhaiMDID",
+    "_DHangMDDKID"
+  ],
+  "token": "ee33fdsfd3efdfdfdsfdfff",
+  "sinkEndpoint": "http://103.124.93.148:6661/api/import-declarations/synchronize-data-ecus",
+  "interval": 300000
+}
