@@ -1,0 +1,47 @@
+﻿<Window x:Class="DBChangeCaptureWS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DBChangeCaptureWS"
+        mc:Ignorable="d"
+        Title="Database Change Monitor" Height="430" Width="500">
+    <Grid Width="{Binding ElementName=window, Path=ActualWidth}" Height="{Binding ElementName=window, Path=ActualHeight}">
+        <!-- Bind to window size -->
+        <!-- Grid content -->
+        <GroupBox Header="Database connection properties" Margin="30,20,30,20" Padding="10">
+            <StackPanel>
+                <TextBlock>Server:</TextBlock>
+                <TextBox Name="txtServer" />
+                <TextBlock>Login:</TextBlock>
+                <TextBox Name="txtUsername" />
+                <TextBlock>Password:</TextBlock>
+                <PasswordBox Name="txtPassword"/>
+
+                <TextBlock>Catalog:</TextBlock>
+                <TextBox Name="txtCatalog" />
+
+                <TextBlock>Tracked Tables (comma-separated):</TextBlock>
+                <TextBox Name="txtCapTables" />
+                <TextBlock>Table Key Fields (comma-separated):</TextBlock>
+                <TextBox Name="txtKeyFields" />
+
+                <TextBlock>Token:</TextBlock>
+                <TextBox Height="30" Name="txtToken" />
+
+
+                <DockPanel Margin="0, 25, 0, 0">
+                    <Button Name="btnTestConnection">Test connection</Button>
+                    <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                        <Button Name="btnStart" Margin="0,0,5,0" HorizontalContentAlignment="Center">
+                            <TextBlock Name="btnStartCaption" Width="80" TextAlignment="Center">Start listening</TextBlock>
+                        </Button>
+                        <Button Name="btnCancel" Width="80" HorizontalContentAlignment="Center">Cancel</Button>
+                    </StackPanel>
+                </DockPanel>
+                <TextBlock Name="tbConnectionStatus" Foreground="#FF119E00" Visibility="Hidden">Successfully</TextBlock>
+
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

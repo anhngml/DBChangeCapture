@@ -14,7 +14,6 @@ namespace DBCDCService
 
         public Worker(ILogger<Worker> logger)
         {
-            // we could (and should) inject configuration here
             _logger = logger;
             //string path = Directory.GetCurrentDirectory();
             string path = AppDomain.CurrentDomain.BaseDirectory;
